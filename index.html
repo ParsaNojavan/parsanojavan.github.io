@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="fa" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terminal Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="icon" href="./assets/icon.png">
+</head>
+<body>
+    <div class="terminal">
+        <div class="terminal-header">
+            <div class="terminal-buttons">
+                <div class="terminal-button close"></div>
+                <div class="terminal-button minimize"></div>
+                <div class="terminal-button maximize"></div>
+            </div>
+            <div class="terminal-title">bash — parsa@portfolio: ~</div>
+        </div>
+        <div class="terminal-body">
+            <div class="output" id="output">
+                
+            <!-- Content will be added dynamically with typing effect -->
+
+            </div>
+            
+            <div class="command-line">
+                <div class="prompt">
+                    <span class="user">parsa</span>@<span class="host">portfolio</span>:<span class="path">~</span>$
+                </div>
+                <input type="text" class="command-input" id="command-input" autofocus>
+            </div>
+        </div>
+    </div>
+
+    <script src="./script/kernel.js"></script>
+</body>
+</html>
