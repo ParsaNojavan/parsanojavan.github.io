@@ -97,8 +97,7 @@ Backend Developer at ASD (2024-2025)
                     return `Social Media:
 GitHub:    github.com/parsanojavan
 LinkedIn:  www.linkedin.com/in/parsa-nojavan-a5268a350
-Twitter:   x.com/NojavanParsa
-Telegram:      blog.alirezaei.dev`;
+Twitter:   x.com/NojavanParsa`;
                 },
                 
                 ls: (args) => {
